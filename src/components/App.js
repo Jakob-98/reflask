@@ -4,6 +4,7 @@ import { Routes, Route, } from "react-router-dom";
 import Header from "./common/Header";
 import HomePage from "./home/HomePage";
 import PageNotFound from "./PageNotFound";
+import TestPage from "./testpages/TestPage";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={ <HomePage /> } />
+          <Route path="/test/" element={ <TestPage /> } />
           <Route element={ <PageNotFound />} />
         </Routes>
       </div>
