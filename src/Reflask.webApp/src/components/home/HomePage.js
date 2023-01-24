@@ -6,6 +6,8 @@ const HomePage = () => {
     return (
       <>
         <h1>Hello World</h1>
+        {/* navigate link to /test */}
+        <button onClick={() => navigate("/test")}>Navigate to /test</button>
       </>
     )
 };
