@@ -29,3 +29,6 @@ venv
 __pycache__
 instance
 *.sqlite
+
+# node modules:
+node_modules
