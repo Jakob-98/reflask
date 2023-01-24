@@ -1,3 +1,9 @@
+TODO... 
+fix webpack
+add pipeline to webapp
+add sqlite (spoof) or 'proper db'
+save as boilerplate.
+
 
 # Getting Started with Create React App
 
